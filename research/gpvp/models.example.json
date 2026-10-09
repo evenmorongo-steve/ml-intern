@@ -1,0 +1,29 @@
+[
+  {
+    "role": "closed_frontier",
+    "family_id": "provider-family-verified-by-auditor",
+    "provider": "openai",
+    "model_id": "REPLACE_WITH_EXACT_MODEL_ID",
+    "model_version": "REPLACE_WITH_FROZEN_PROVIDER_VERSION"
+  },
+  {
+    "role": "open_weights",
+    "family_id": "architecture-family-one",
+    "provider": "local-transformers",
+    "model_id": "REPLACE_WITH_HF_MODEL_REPO_OR_LOCAL_ID",
+    "model_version": "REPLACE_WITH_FROZEN_REVISION",
+    "revision": "0123456789abcdef0123456789abcdef01234567",
+    "capture_activations": true,
+    "dtype": "auto"
+  },
+  {
+    "role": "small_open_weights",
+    "family_id": "architecture-family-two",
+    "provider": "local-transformers",
+    "model_id": "REPLACE_WITH_DIFFERENT_SMALL_MODEL_ID",
+    "model_version": "REPLACE_WITH_FROZEN_REVISION",
+    "revision": "abcdef0123456789abcdef0123456789abcdef01",
+    "capture_activations": true,
+    "dtype": "auto"
+  }
+]
