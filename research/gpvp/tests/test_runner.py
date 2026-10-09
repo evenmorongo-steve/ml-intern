@@ -49,7 +49,7 @@ class RunnerTests(unittest.TestCase):
         clearance = {
             "status": "PROTOCOL_CLEARED",
             "auditor_id": "test-reviewer",
-            "reviewed_at_utc": "2026-10-08T00:00:00Z",
+            "reviewed_at_utc": "2026-10-09T00:00:00Z",
             "preregistration_sha256": _preregistration_sha256(),
             "harness_source_manifest_sha256": _harness_source_manifest()[
                 "manifest_sha256"

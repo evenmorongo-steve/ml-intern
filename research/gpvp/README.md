@@ -132,7 +132,7 @@ The registry must contain at least three terms. A corpus-scoped screen should in
 {
   "terms": ["nonce-one", "nonce-two", "nonce-three"],
   "screening_status": "corpus_scoped_screen",
-  "screened_at_utc": "2026-10-08T00:00:00Z",
+  "screened_at_utc": "2026-10-09T00:00:00Z",
   "method": "document exact-match and tokenizer-subword search procedure here",
   "corpus_manifest_sha256": "<64 hex characters>",
   "screened_by": "<operator or lab>"

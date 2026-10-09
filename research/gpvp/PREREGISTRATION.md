@@ -1,7 +1,7 @@
 # GPVP preregistration — version 0.1.0
 
 **Study:** HERMES-LAM phenomenology report validation (GPVP)
-**Protocol date:** 2026-10-08 (UTC)
+**Protocol date:** 2026-10-08 (America/Los_Angeles local date)
 **Status:** Internal protocol frozen in this repository before any model query; not externally timestamped, not independently audited, and not a registration of collected data.
 **Data status at freeze:** No model observations collected.
 **Scope:** Test report generation, report/control discriminability, contamination proxies, and report/internal-measurement coupling. No test here establishes sentience or subjective experience.

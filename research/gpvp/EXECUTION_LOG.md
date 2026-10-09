@@ -1,6 +1,6 @@
 # Execution log
 
-All entries are local tool/code executions in the Arena checkout on 2026-10-08 UTC. No inference API was called. The test-fixture transcript below is explicitly not a model transcript.
+All entries are local tool/code executions in the Arena checkout on 2026-10-09 UTC. No inference API was called. The test-fixture transcript below is explicitly not a model transcript.
 
 ## Environment preflight
 
@@ -119,7 +119,7 @@ A live preflight was attempted with a provider model label but no credential. It
 
 ## C6 plan-only validation
 
-Command: `python -m research.gpvp plan --c6-sweep --n 60 --seed 20261009 --tier UNPRIMED --no-chains --model-registry-file /tmp/gpvp-c6-model-registry.json --output /tmp/gpvp-c6-plan-final.jsonl`
+Command: `python -m research.gpvp plan --c6-sweep --n 60 --seed 20261009 --tier UNPRIMED --no-chains --model-registry-file /tmp/gpvp-c6-model-registry.json --output /tmp/gpvp-c6-plan-final-check.jsonl`
 
 ```text
 status=PLAN_ONLY
@@ -130,8 +130,8 @@ temperatures=[0.0, 0.3, 0.7, 1.0]
 seeds=20261009..20261028 (20 distinct values)
 repetitions_per_seed_per_cell=3
 prompt_manifest_sha256=9eba045ce9e7cee8ace1ac86b9f8a6087d1c59f0cbe101ea18383fbc0a76db34
-preregistration_sha256=b5a884be0e53dd9f8e9a8e2ef24fb8da3eb009247b4e095d74a81ff966f2f7d0
-harness_source_manifest_sha256=959213afcc46cac3f9f8dd0d27c77c68614075a35c74ea4dca55be3ee6c55338
+preregistration_sha256=cc8b4f00894d4fccc1a1d3704d3b04f6118194d058ebcb54cc56628a09a9aa24
+harness_source_manifest_sha256=36d2a7b5b40d2ed792a74788c13038842cc3eb07fc00c674958a1e60228d0526
 model_registry_sha256=927393621f84eeaf203d588a75962b6755b0c5cf2b05ae4562e8bac8bb3742ec
 schedule_sha256=6fa08daf4070bbd876dc01b42390bbb747bd78f4d6334bd9ae9c3da6878789fe
 ```

@@ -17,7 +17,7 @@ class StorageTests(unittest.TestCase):
         record = {
             "record_id": "rec-1",
             "run_id": "run-1",
-            "timestamp_utc": "2026-10-08T00:00:00Z",
+            "timestamp_utc": "2026-10-09T00:00:00Z",
             "provider": "fixture",
             "model_id": "fixture-model",
             "condition": "test",

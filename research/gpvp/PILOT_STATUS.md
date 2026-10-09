@@ -1,6 +1,6 @@
 # Pilot status and initial results report
 
-**As of:** 2026-10-08 UTC
+**As of:** 2026-10-08 (America/Los_Angeles)
 **Study data status:** NO LIVE MODEL CALLS; no experimental raw transcripts; no hypothesis tested.
 **Auditor verdict:** NOT CLEARED — there is no independent pilot review because no model pilot exists.
 **Scale-up:** BLOCKED.
