@@ -1,0 +1,3 @@
+# Install only for a local open-weight inference run.
+torch>=2.2
+transformers>=4.45
